@@ -5,6 +5,7 @@ import AllMeetupsPage from './pages/AllMeetups';
 import Favorites from './pages/Favorites';
 import NewMeetup from './pages/NewMeetup';
 import Layout from './components/layout/Layout';
+import NewMeetupForm from './components/meetups/NewMeetupForm';
 
 
 import MainNavigation from './components/layout/MainNavigation';
@@ -17,6 +18,7 @@ function App() {
 
      <Route path='/' exact>
       <AllMeetupsPage />
+
      </Route>
 
      <Route path='/favorites'>
